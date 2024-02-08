@@ -3,7 +3,7 @@ import numpy as np
 from multiprocessing import Pool, cpu_count
 import chmpy
 from chmpy import Crystal,Molecule
-##put the directory path where your cif files are on line no 21
+##Iput the directory path where your cif files are on line no 21
 # and directory path for separate folder where the electron density csv files will be stored at line 15
 
 def process_cif(filename):          
